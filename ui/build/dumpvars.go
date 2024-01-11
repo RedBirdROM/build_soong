@@ -145,9 +145,12 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 
 // Variables to print out in the top banner
 var BannerVars = []string{
+	"REDBIRD_VERSION",
+	"REDBIRD_MAINTAINER",
+	"REDBIRD_BUILD_TYPE",
+	"REDBIRD_BUILD_VERSION",
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
-	"REDBIRD_VERSION",
 	"PRODUCT_IS_ATV",
 	"PRODUCT_IS_AUTO",
 	"WITH_GMS",
